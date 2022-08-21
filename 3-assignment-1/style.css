@@ -52,9 +52,10 @@ main {
     padding-right: 20px;
 }
 
-main header h2 {
+header h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 0;
 }
@@ -72,4 +73,46 @@ main section ul li {
     margin-bottom: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+}
+
+.movies-list {
+    float: left;
+    width: 50%;
+}
+
+.tv-shows-list {
+    float: right;
+    width: 50%;
+}
+
+.movies-list li, .tv-shows-list li {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: honeydew;
+    height: 450px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.movies-list img, .tv-shows-list img {
+    margin-top: 10%;
+    width: 60%;
+}
+
+.movie figcaption, .tv-show figcaption {
+    margin-top: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.movie a, .tv-show a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.movie a:visited, .tv-show a:visited {
+    color: black;
 }
